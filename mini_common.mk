@@ -67,8 +67,9 @@ PRODUCT_PACKAGES += \
 # be included in platform.zip
 PRODUCT_PACKAGES += camera.goldfish.jpeg
 
+PRODUCT_PACKAGES += framework-audio_effects.xml
+
 PRODUCT_COPY_FILES += \
-    frameworks/av/media/libeffects/data/audio_effects.conf:system/etc/audio_effects.conf \
     frameworks/native/data/etc/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml \
     frameworks/native/data/etc/android.hardware.sensor.barometer.xml:system/etc/permissions/android.hardware.sensor.barometer.xml \
     frameworks/native/data/etc/android.hardware.sensor.gyroscope.xml:system/etc/permissions/android.hardware.sensor.gyroscope.xml \
