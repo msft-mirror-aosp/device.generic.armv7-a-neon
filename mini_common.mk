@@ -68,6 +68,9 @@ PRODUCT_PACKAGES += camera.goldfish.jpeg
 
 PRODUCT_PACKAGES += framework-audio_effects.xml
 
+# Allowlist for system packages included in mini_common.mk
+PRODUCT_PACKAGES += preinstalled-packages-mini-common.xml
+
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml \
     frameworks/native/data/etc/android.hardware.sensor.barometer.xml:system/etc/permissions/android.hardware.sensor.barometer.xml \
